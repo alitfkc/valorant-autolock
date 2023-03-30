@@ -61,16 +61,16 @@ def click_object(char):
                 if intege <= 11:
                     intege = 0.24+(intege * 0.045)
                     pyautogui.moveTo(screen_width*intege,screen_height*0.85)
-                   # pyautogui.click(screen_width*intege,screen_height*0.85)
+                    pyautogui.click(screen_width*intege,screen_height*0.85)
                     pyautogui.moveTo(screen_width*0.5,screen_height*0.75)
-                   # pyautogui.click(screen_width*0.5,screen_height*0.75)
+                    pyautogui.click(screen_width*0.5,screen_height*0.75)
                 else:
                     intege = intege - 10
                     intege = 0.24+(intege * 0.04)
                     pyautogui.moveTo(screen_width*intege,screen_height*0.94)
-                   # pyautogui.click(screen_width*intege,screen_height*0.85)
+                    pyautogui.click(screen_width*intege,screen_height*0.85)
                     pyautogui.moveTo(screen_width*0.5,screen_height*0.75)
-                   # pyautogui.click(screen_width*0.5,screen_height*0.75)
+                    pyautogui.click(screen_width*0.5,screen_height*0.75)
                     
 
 
